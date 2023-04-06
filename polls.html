@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Frontend/Styles/polls.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="nav">
+            <h2><i class="fa-solid fa-bars"></i></h2>
+            <h2>Anonymous</h2>
+        </div>
+
+        <div class="nav-mid">
+            <h2><i class="fas fa-comments-alt"></i></h2>
+            <h2>Q&A</h2>
+            <h2><i class="fas fa-poll"></i></h2>
+            <h2>Polls</h2>
+        </div>
+        <div class="nav-last">
+            <h2><i class="fa-regular fa-user"></i></h2>
+        </div>
+    </div>
+    <div class="question">
+        <h4>Asked question</h4>
+        <!-- display data -->
+    </div>
+    <div class="display">
+        <form id="response-form" action="">
+            <input id="res" type="text" placeholder="Enter Your Response here">
+            <input id="sub" type="submit" value="Response">
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+    integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+    crossorigin="anonymous"></script>
+<script src="./Scripts/poll.js"></script>

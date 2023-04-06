@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="./Styles/event.css">
+    <script src="https://kit.fontawesome.com/3e90fa2a97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar">
+
+    </div>
+    <div id="events">
+        <div>
+            <button style="color: #2339b8;  border-bottom:3px solid #2339b8;">Events</button>
+            <button>Team</button>
+            <button>Analytics</button>
+            <button>Tutorials</button>
+        </div>
+    </div>
+    <div id="active-events">
+        <div id="child1">
+            <h2>Active</h2>
+            <button id="create-poll"><i class="fa-solid fa-plus"></i> Create Poll</button>
+        </div>
+        <div id="crete-pollbox">
+            <h4>When do you want to use EasyPoll?</h4>
+            <!-- <form action=""> -->
+                <div id="date">
+                    <div>
+                        <label for="" >Start date</label>
+                        <br>
+                        <input type="date" id="start-date" >
+                    </div>
+                    <div>
+                        <label for="" id="end-date-label">End date</label>
+                        <br>
+                        <input type="date" name="" id="end-date">
+                    </div>
+                </div> 
+                <br>
+                <p>Give Your Poll a name</p>
+                <input type="text" placeholder="Poll Name" id="poll-name">
+                <br>
+                <button id="participate">Anyone with the code or link can participate</button>
+                <button id="cancel">Cancel</button>
+                <button id="submit">Create Poll</button>
+                <!-- <input type="Submit" value="Create Poll" id="submit"> -->
+            <!-- </form> -->
+
+        </div>
+        <div id="child2" class="all-events">
+        </div>
+        <h3>Run Easy Poll directly from your favorite tool</h3>
+
+        <div id="child3">
+            <div>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Google_Slides_2020_Logo.svg/640px-Google_Slides_2020_Logo.svg.png" alt=""></button>
+                <p>Google Slides</p>
+            </div>
+            <div>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png" alt=""></button>
+                <p>Microsoft PowerPoint</p>
+            </div>
+            <div>
+                <button><img src="https://play-lh.googleusercontent.com/jKU64njy8urP89V1O63eJxMtvWjDGETPlHVIhDv9WZAYzsSxRWyWZkUlBJZj_HbkHA" alt=""></button>
+                <p>Microsoft Team</p>
+            </div>
+            <div>
+                <button><img src="https://play-lh.googleusercontent.com/tFFAvb_eZM5BlHYFiuyVwhM54o7mvfCOFX3AGbgTULfKpEancPmZnP1PRu44CZiZgyI" alt=""></button>
+                <p>Webex Meetings</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
+<script src="./Scripts/event.js"></script>
